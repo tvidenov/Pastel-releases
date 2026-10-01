@@ -3,6 +3,16 @@
     <channel>
         <title>Pastel</title>
         <item>
+            <title>0.3.2</title>
+            <pubDate>Thu, 01 Oct 2026 16:54:37 +0300</pubDate>
+            <link>https://github.com/tvidenov/Pastel-releases/releases</link>
+            <sparkle:version>31</sparkle:version>
+            <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:releaseNotesLink>https://raw.githubusercontent.com/tvidenov/Pastel-releases/main/notes/Pastel-0.3.2.html</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/tvidenov/Pastel-releases/releases/download/v0.3.2/Pastel-0.3.2.dmg" length="3696243" type="application/octet-stream" sparkle:edSignature="sjIGVqCI7gUHhFBjDShdFKNsVYLCY1yghJFNXows+x8hfl0STxa6qEP6mtxuZZdhn8Rf/InTay0kTwMwpJDlDQ=="/>
+        </item>
+        <item>
             <title>0.3.1</title>
             <pubDate>Thu, 01 Oct 2026 15:30:44 +0300</pubDate>
             <link>https://github.com/tvidenov/Pastel-releases/releases</link>
