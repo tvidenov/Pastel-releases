@@ -3,6 +3,23 @@
     <channel>
         <title>Pastel</title>
         <item>
+            <title>0.4.0</title>
+            <pubDate>Thu, 01 Oct 2026 18:03:21 +0300</pubDate>
+            <link>https://github.com/tvidenov/Pastel-releases/releases</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/tvidenov/Pastel-releases/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>39</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><strong>Ask Pastel — on-device Q&amp;A over your clipboard</strong></p>
+<ul><li>Open the Library (⌘L) and press ⇧⌘A, or use the Ask button, to ask questions like “Which GitHub repos did I save?”, “Find links about AI agents” or “What did I copy this week?”.</li><li>Answers come from Apple Intelligence running on your Mac; nothing leaves the device. Pastel searches your history and pinboards, cites the items it used as Sources, and follow-up questions keep working (“translate the second one”).</li><li>Right-click any card and choose “Ask about this…” to ask about a single item, including summarising a link or explaining a code snippet.</li><li>Turn it off under Settings › Intelligence › Ask Pastel.</li></ul>
+<p><strong>Fixes</strong></p>
+<ul><li>Shortcut names in Settings no longer render in the active keyboard layout (e.g. Cyrillic); they always show Latin key names.</li></ul>
+<p><strong>Under the hood</strong></p>
+<ul><li>Sparkle auto-update setup is now documented in docs/sparkle-updates.md.</li></ul>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/Pastel-releases/releases/download/v0.4.0/Pastel-0.4.0.dmg" length="3950252" type="application/octet-stream" sparkle:edSignature="2lJAPva2rDhj6urtLoNQd19f9lRD79Hp3ASIQ3M5+lICNBPppDQy7gXHx+MNvU11bqQczPL1d7h9XAva8ZDnBg=="/>
+        </item>
+        <item>
             <title>0.3.2</title>
             <pubDate>Thu, 01 Oct 2026 17:27:10 +0300</pubDate>
             <link>https://github.com/tvidenov/Pastel-releases/releases</link>
