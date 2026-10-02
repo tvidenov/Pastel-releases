@@ -3,6 +3,21 @@
     <channel>
         <title>Pastel</title>
         <item>
+            <title>0.5.0</title>
+            <pubDate>Fri, 02 Oct 2026 17:19:55 +0300</pubDate>
+            <link>https://github.com/tvidenov/Pastel-releases/releases</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/tvidenov/Pastel-releases/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>47</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><strong>iCloud sync between your Macs</strong></p>
+<ul><li>Turn on Settings › Sync to keep your pinboards and recent clipboard history the same on all your Macs. Pastel syncs through a Pastel folder in iCloud Drive, so all you need is iCloud Drive turned on.</li><li>Pinboards always sync; history syncs for as long as you choose under “Keep history in iCloud for” (a month by default). Images sync at full size up to 10 MB and as a preview above that.</li><li>Detected passwords and keys never sync, and neither do copied files. Each Mac keeps its own history limit, and Erase History only affects other Macs when you tick “Also erase on my other Macs”.</li><li>Sync is off until you turn it on, and Pastel tells you how much it will upload first.</li></ul>
+<p><strong>Fixes</strong></p>
+<ul><li>Pinning a detected password or key keeps it concealed and expiring. Credentials pinned by earlier versions are concealed again; they stay pinned.</li><li>Very wide images, like a screenshot of a single terminal line, no longer spill over neighbouring cards in the Library.</li><li>Items copied while Apple Intelligence was unavailable are organized once it becomes available instead of being skipped.</li></ul>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/Pastel-releases/releases/download/v0.5.0/Pastel-0.5.0.dmg" length="4530003" type="application/octet-stream" sparkle:edSignature="KoIUctx3y8OSQYGrkNQSN7qX6jBglymZ7s3obgWrJv1c7Lan2vmp1HErg4F3JvNls3/Q1QTSOESRDeywoKIXBA=="/>
+        </item>
+        <item>
             <title>0.4.0</title>
             <pubDate>Thu, 01 Oct 2026 18:03:21 +0300</pubDate>
             <link>https://github.com/tvidenov/Pastel-releases/releases</link>
