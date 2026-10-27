@@ -3,6 +3,23 @@
     <channel>
         <title>Pastel</title>
         <item>
+            <title>0.7.0</title>
+            <pubDate>Tue, 27 Oct 2026 17:53:15 +0200</pubDate>
+            <link>https://github.com/tvidenov/Pastel-releases/releases</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/tvidenov/Pastel-releases/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>104</sparkle:version>
+            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p># Pastel 0.7.0</p>
+<p>## A Front Page for more browsers</p>
+<ul><li>Safari now includes Pastel Front Page as a bundled extension, with your pinned bookmarks, projects and saved links in new tabs and windows.</li><li>Firefox has a temporary extension preview, including a new-tab dashboard and optional home page. Permanent Firefox installation still requires Mozilla signing.</li><li>Browser settings guide you through Safari, Chrome and Firefox setup.</li></ul>
+<p>## Bring your open tabs together</p>
+<ul><li>Choose which browsers to collect normal open tabs from: Safari, Chrome, Firefox and Zen.</li><li>Matching links merge across browsers and profiles. Existing titles, lists, pins and Done status stay in place.</li><li>Browser sources appear on saved links. Closing a tab keeps its saved bookmark.</li><li>Only current tab titles and addresses are collected. Private tabs, browser history, page contents, internal pages and credential-bearing URLs are excluded. Automatically collected links skip background page fetching and organization.</li></ul>
+<p>Safari must be enabled in Safari’s Extensions settings. Existing Chrome installations need the updated extension files reloaded to grant the new tabs permission. Collection starts only after you opt in for each browser in Pastel’s Browser settings.</p>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/Pastel-releases/releases/download/v0.7.0/Pastel-0.7.0.dmg" length="8227183" type="application/octet-stream" sparkle:edSignature="XJrC9y8mPAXH8W1mPh2UAF2pCRSL+O9eAj8D3LPhhsiJZemsqWYM7m6sEFrZJDEE12h/lnUoirMp12rWJEnqAw=="/>
+        </item>
+        <item>
             <title>0.6.0</title>
             <pubDate>Tue, 27 Oct 2026 15:58:19 +0200</pubDate>
             <link>https://github.com/tvidenov/Pastel-releases/releases</link>
@@ -36,23 +53,6 @@
 <ul><li>Pinning a detected password or key keeps it concealed and expiring. Credentials pinned by earlier versions are concealed again; they stay pinned.</li><li>Very wide images, like a screenshot of a single terminal line, no longer spill over neighbouring cards in the Library.</li><li>Items copied while Apple Intelligence was unavailable are organized once it becomes available instead of being skipped.</li></ul>
 ]]></description>
             <enclosure url="https://github.com/tvidenov/Pastel-releases/releases/download/v0.5.0/Pastel-0.5.0.dmg" length="4530003" type="application/octet-stream" sparkle:edSignature="KoIUctx3y8OSQYGrkNQSN7qX6jBglymZ7s3obgWrJv1c7Lan2vmp1HErg4F3JvNls3/Q1QTSOESRDeywoKIXBA=="/>
-        </item>
-        <item>
-            <title>0.4.0</title>
-            <pubDate>Thu, 01 Oct 2026 18:03:21 +0300</pubDate>
-            <link>https://github.com/tvidenov/Pastel-releases/releases</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/tvidenov/Pastel-releases/releases</sparkle:fullReleaseNotesLink>
-            <sparkle:version>39</sparkle:version>
-            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><strong>Ask Pastel — on-device Q&amp;A over your clipboard</strong></p>
-<ul><li>Open the Library (⌘L) and press ⇧⌘A, or use the Ask button, to ask questions like “Which GitHub repos did I save?”, “Find links about AI agents” or “What did I copy this week?”.</li><li>Answers come from Apple Intelligence running on your Mac; nothing leaves the device. Pastel searches your history and pinboards, cites the items it used as Sources, and follow-up questions keep working (“translate the second one”).</li><li>Right-click any card and choose “Ask about this…” to ask about a single item, including summarising a link or explaining a code snippet.</li><li>Turn it off under Settings › Intelligence › Ask Pastel.</li></ul>
-<p><strong>Fixes</strong></p>
-<ul><li>Shortcut names in Settings no longer render in the active keyboard layout (e.g. Cyrillic); they always show Latin key names.</li></ul>
-<p><strong>Under the hood</strong></p>
-<ul><li>Sparkle auto-update setup is now documented in docs/sparkle-updates.md.</li></ul>
-]]></description>
-            <enclosure url="https://github.com/tvidenov/Pastel-releases/releases/download/v0.4.0/Pastel-0.4.0.dmg" length="3950252" type="application/octet-stream" sparkle:edSignature="2lJAPva2rDhj6urtLoNQd19f9lRD79Hp3ASIQ3M5+lICNBPppDQy7gXHx+MNvU11bqQczPL1d7h9XAva8ZDnBg=="/>
         </item>
     </channel>
 </rss>
