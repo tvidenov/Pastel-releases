@@ -3,6 +3,26 @@
     <channel>
         <title>Pastel</title>
         <item>
+            <title>0.6.0</title>
+            <pubDate>Tue, 27 Oct 2026 15:58:19 +0200</pubDate>
+            <link>https://github.com/tvidenov/Pastel-releases/releases</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/tvidenov/Pastel-releases/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>95</sparkle:version>
+            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><strong>Your links, projects, and clipboard in one place</strong></p>
+<ul><li>A Front Page for each space puts pinned bookmarks and every project link within reach. Projects use a compact layout, with clearer sections and equal-size pinned cards.</li><li>Pin a bookmark to the Front Page from the ribbon, search, or the page itself.</li><li>The optional Chrome companion brings your Front Page to every new tab. Pins and saved links stay connected to Pastel on this Mac. Set it up in Settings › Browser; the extension is installed locally using Chrome's Load unpacked option.</li><li>Find bookmarks through the compact Search action or the / shortcut. Activity and library health stay out of the way until you need them.</li></ul>
+<p><strong>A closer look</strong></p>
+<ul><li>Press Space in the ribbon for a much larger preview. Resize it or use Expand to fill the available screen.</li><li>Zoom into images, switch to 100% or Fit, and use a trackpad pinch to inspect details.</li><li>Adjust text size, wrap long lines, select passages, and read complete code snippets with syntax highlighting.</li><li>Copy, paste, edit, open, reveal files, or pin an item directly from its preview. Arrow keys browse; Space or Escape returns to the ribbon.</li><li>Preview PDFs and other documents with macOS Quick Look, and choose which file to view when a clip contains several files.</li><li>Detected sensitive items stay concealed in previews.</li></ul>
+<p><strong>A more useful library</strong></p>
+<ul><li>Organize pinboards and saved collections into spaces, and let a Focus filter select a space for you.</li><li>Saved links have an Inbox, Read Next, Done, collections, search, descriptions, and a Front Page. Import tabs and page details from Zen, or save the current tab from Safari, Chrome, or Zen.</li><li>Review stale links, pages that are no longer available, and tabs closed in Zen. Removal always stays under your control.</li><li>Share pinboards as .pastelpack files. Save and reuse Paste Stacks, or paste a pinboard in sequence.</li><li>Search across clipboard history and this space's pinboards, then narrow by item type, app, date, or source.</li></ul>
+<p><strong>Privacy and fixes</strong></p>
+<ul><li>Detected passwords and keys are excluded from MCP access, pinboard exports, and iCloud sync. MCP access is off on new installs until enabled.</li><li>The optional Claude organizer uses your own API key and only the saved-link metadata from the spaces you select; clipboard items are excluded.</li><li>Quick Start includes a practice paste, and can be reopened from the menu bar.</li><li>Improved sheet sizing, keyboard focus, VoiceOver labels, and pasting into Pastel's own windows.</li></ul>
+<p>Requires macOS 26 or later. Apple Intelligence features require a compatible Mac and enabled Apple Intelligence.</p>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/Pastel-releases/releases/download/v0.6.0/Pastel-0.6.0.dmg" length="7923817" type="application/octet-stream" sparkle:edSignature="tKMbOUog7auWLue+OPeEnkkwwhQgEWMUSbxGRmBdhtJj1+/i0m/Z/GHyNj8FXiN73ur+j5G4KhyaFqaLLCTYAg=="/>
+        </item>
+        <item>
             <title>0.5.0</title>
             <pubDate>Fri, 02 Oct 2026 17:19:55 +0300</pubDate>
             <link>https://github.com/tvidenov/Pastel-releases/releases</link>
@@ -33,20 +53,6 @@
 <ul><li>Sparkle auto-update setup is now documented in docs/sparkle-updates.md.</li></ul>
 ]]></description>
             <enclosure url="https://github.com/tvidenov/Pastel-releases/releases/download/v0.4.0/Pastel-0.4.0.dmg" length="3950252" type="application/octet-stream" sparkle:edSignature="2lJAPva2rDhj6urtLoNQd19f9lRD79Hp3ASIQ3M5+lICNBPppDQy7gXHx+MNvU11bqQczPL1d7h9XAva8ZDnBg=="/>
-        </item>
-        <item>
-            <title>0.3.2</title>
-            <pubDate>Thu, 01 Oct 2026 17:27:10 +0300</pubDate>
-            <link>https://github.com/tvidenov/Pastel-releases/releases</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/tvidenov/Pastel-releases/releases</sparkle:fullReleaseNotesLink>
-            <sparkle:version>31</sparkle:version>
-            <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p>Pastel 0.3.2 fixes two Settings issues.</p>
-<ul><li>"Check for updates automatically" now shows Sparkle's real state instead of appearing off.</li><li>Accessibility: if Pastel is listed and enabled in System Settings but direct paste still doesn't work (an entry created by a differently signed build), a new "Reset &amp; Ask Again" button in Settings › General and in the paste prompt removes the stale entry and requests access again.</li></ul>
-<p>Signed and notarized. Requires macOS 26 or later.</p>
-]]></description>
-            <enclosure url="https://github.com/tvidenov/Pastel-releases/releases/download/v0.3.2/Pastel-0.3.2.dmg" length="3696243" type="application/octet-stream" sparkle:edSignature="sjIGVqCI7gUHhFBjDShdFKNsVYLCY1yghJFNXows+x8hfl0STxa6qEP6mtxuZZdhn8Rf/InTay0kTwMwpJDlDQ=="/>
         </item>
     </channel>
 </rss>
