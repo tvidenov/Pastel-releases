@@ -3,6 +3,19 @@
     <channel>
         <title>Pastel</title>
         <item>
+            <title>0.8.0</title>
+            <pubDate>Wed, 28 Oct 2026 16:15:08 +0200</pubDate>
+            <link>https://github.com/tvidenov/Pastel-releases/releases</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/tvidenov/Pastel-releases/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>106</sparkle:version>
+            <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p># Pastel 0.8.0</p>
+<ul><li>Resize the clipboard ribbon by dragging its top edge up or down, or use the new size slider in Settings. Double-click the handle to return to the original size. Your choice is remembered.</li><li>At smaller sizes, choose <strong>Compact tiles</strong> for readable titles and details or <strong>Dock icons</strong> for thumbnails with details on hover. Switch from the ribbon’s More menu or Settings. Full preview cards return as you make the ribbon taller.</li><li>Keyboard selection, Quick Paste, dragging, context menus and Space preview work across ribbon sizes. Sensitive items stay concealed in both compact styles.</li><li>Sparkle now downloads signed updates automatically by default and installs them when you quit Pastel. Settings includes separate controls for automatic checks and downloads. Existing explicit update preferences are preserved.</li></ul>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/Pastel-releases/releases/download/v0.8.0/Pastel-0.8.0.dmg" length="8281171" type="application/octet-stream" sparkle:edSignature="gvmF0fNGVMvno6lHF86r9Fr6gqKqg3nJc6f2eUvanM5wYA1d7vWJIzqTzhKjP3ci4Y5M1gH6z1Fs0XrsXMBfAA=="/>
+        </item>
+        <item>
             <title>0.7.0</title>
             <pubDate>Tue, 27 Oct 2026 17:53:15 +0200</pubDate>
             <link>https://github.com/tvidenov/Pastel-releases/releases</link>
@@ -38,21 +51,6 @@
 <p>Requires macOS 26 or later. Apple Intelligence features require a compatible Mac and enabled Apple Intelligence.</p>
 ]]></description>
             <enclosure url="https://github.com/tvidenov/Pastel-releases/releases/download/v0.6.0/Pastel-0.6.0.dmg" length="7923817" type="application/octet-stream" sparkle:edSignature="tKMbOUog7auWLue+OPeEnkkwwhQgEWMUSbxGRmBdhtJj1+/i0m/Z/GHyNj8FXiN73ur+j5G4KhyaFqaLLCTYAg=="/>
-        </item>
-        <item>
-            <title>0.5.0</title>
-            <pubDate>Fri, 02 Oct 2026 17:19:55 +0300</pubDate>
-            <link>https://github.com/tvidenov/Pastel-releases/releases</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/tvidenov/Pastel-releases/releases</sparkle:fullReleaseNotesLink>
-            <sparkle:version>47</sparkle:version>
-            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><strong>iCloud sync between your Macs</strong></p>
-<ul><li>Turn on Settings › Sync to keep your pinboards and recent clipboard history the same on all your Macs. Pastel syncs through a Pastel folder in iCloud Drive, so all you need is iCloud Drive turned on.</li><li>Pinboards always sync; history syncs for as long as you choose under “Keep history in iCloud for” (a month by default). Images sync at full size up to 10 MB and as a preview above that.</li><li>Detected passwords and keys never sync, and neither do copied files. Each Mac keeps its own history limit, and Erase History only affects other Macs when you tick “Also erase on my other Macs”.</li><li>Sync is off until you turn it on, and Pastel tells you how much it will upload first.</li></ul>
-<p><strong>Fixes</strong></p>
-<ul><li>Pinning a detected password or key keeps it concealed and expiring. Credentials pinned by earlier versions are concealed again; they stay pinned.</li><li>Very wide images, like a screenshot of a single terminal line, no longer spill over neighbouring cards in the Library.</li><li>Items copied while Apple Intelligence was unavailable are organized once it becomes available instead of being skipped.</li></ul>
-]]></description>
-            <enclosure url="https://github.com/tvidenov/Pastel-releases/releases/download/v0.5.0/Pastel-0.5.0.dmg" length="4530003" type="application/octet-stream" sparkle:edSignature="KoIUctx3y8OSQYGrkNQSN7qX6jBglymZ7s3obgWrJv1c7Lan2vmp1HErg4F3JvNls3/Q1QTSOESRDeywoKIXBA=="/>
         </item>
     </channel>
 </rss>
