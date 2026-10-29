@@ -3,6 +3,22 @@
     <channel>
         <title>Pastel</title>
         <item>
+            <title>0.9.0</title>
+            <pubDate>Thu, 29 Oct 2026 15:51:53 +0200</pubDate>
+            <link>https://github.com/tvidenov/Pastel-releases/releases</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/tvidenov/Pastel-releases/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>110</sparkle:version>
+            <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p># Pastel 0.9.0</p>
+<p>## Pocket: a compact list at your text cursor</p>
+<ul><li><strong>Pocket</strong> is a small clipboard list that opens right under the text cursor in the app you're typing in. Where an app doesn't share its cursor position, it opens at the pointer. The ribbon stays on ⇧⌘V.</li><li><strong>Its shortcut:</strong> new installs open Pocket with <strong>⌃⌘V</strong>. If you're updating, Pocket starts without a shortcut, because ⌃⌘V is Paste Special in Microsoft Office: open it from the menu bar, or set a shortcut in Settings › Shortcuts.</li><li><strong>Hold to cycle, like ⌘Tab:</strong> keep ⌃⌘ down and press V again to step down the list, then let go to paste. Let go after one press and Pocket stays open for searching.</li><li><strong>Type to search</strong> with letters spread out: "ngxrl" finds "nginx reload". Matched letters are highlighted.</li><li><strong>Paste as:</strong> press ⇥ to paste the selected item another way: one line, trimmed, quoted, as code, uppercase, plain text without formatting, a link as Markdown, its title or its domain, a color as RGB, HSL or SwiftUI, a file's path or name, or the text Pastel read in a screenshot.</li><li>When the intelligent clipboard is on, the item that fits what you're writing is selected, with its reason.</li><li>Pinboards in the current space appear as chips; switch with ← and →. ⌘1–⌘9 paste by number, ⇧↵ pastes plain text, ⌥⌫ deletes an item, ⎋ clears the search and then closes.</li></ul>
+<p>## Saved links</p>
+<ul><li>Rename saved links: choose Rename… from a link's menu, or press R in the list.</li><li>Links saved from Zen take the names you gave their tabs in Zen's sidebar, and follow later renames there until you rename them in Pastel. Clearing a name brings back the one from Zen.</li></ul>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/Pastel-releases/releases/download/v0.9.0/Pastel-0.9.0.dmg" length="8560766" type="application/octet-stream" sparkle:edSignature="RuS8M12dLGroOUu5hZK7O/VCJT8zX+NXk1LumAeUVapoWjf065/6Iuwh2OrYSLrFcOxRONuvbwqvRHtPyiNuBw=="/>
+        </item>
+        <item>
             <title>0.8.0</title>
             <pubDate>Wed, 28 Oct 2026 16:15:08 +0200</pubDate>
             <link>https://github.com/tvidenov/Pastel-releases/releases</link>
@@ -31,26 +47,6 @@
 <p>Safari must be enabled in Safari’s Extensions settings. Existing Chrome installations need the updated extension files reloaded to grant the new tabs permission. Collection starts only after you opt in for each browser in Pastel’s Browser settings.</p>
 ]]></description>
             <enclosure url="https://github.com/tvidenov/Pastel-releases/releases/download/v0.7.0/Pastel-0.7.0.dmg" length="8227183" type="application/octet-stream" sparkle:edSignature="XJrC9y8mPAXH8W1mPh2UAF2pCRSL+O9eAj8D3LPhhsiJZemsqWYM7m6sEFrZJDEE12h/lnUoirMp12rWJEnqAw=="/>
-        </item>
-        <item>
-            <title>0.6.0</title>
-            <pubDate>Tue, 27 Oct 2026 15:58:19 +0200</pubDate>
-            <link>https://github.com/tvidenov/Pastel-releases/releases</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/tvidenov/Pastel-releases/releases</sparkle:fullReleaseNotesLink>
-            <sparkle:version>95</sparkle:version>
-            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><strong>Your links, projects, and clipboard in one place</strong></p>
-<ul><li>A Front Page for each space puts pinned bookmarks and every project link within reach. Projects use a compact layout, with clearer sections and equal-size pinned cards.</li><li>Pin a bookmark to the Front Page from the ribbon, search, or the page itself.</li><li>The optional Chrome companion brings your Front Page to every new tab. Pins and saved links stay connected to Pastel on this Mac. Set it up in Settings › Browser; the extension is installed locally using Chrome's Load unpacked option.</li><li>Find bookmarks through the compact Search action or the / shortcut. Activity and library health stay out of the way until you need them.</li></ul>
-<p><strong>A closer look</strong></p>
-<ul><li>Press Space in the ribbon for a much larger preview. Resize it or use Expand to fill the available screen.</li><li>Zoom into images, switch to 100% or Fit, and use a trackpad pinch to inspect details.</li><li>Adjust text size, wrap long lines, select passages, and read complete code snippets with syntax highlighting.</li><li>Copy, paste, edit, open, reveal files, or pin an item directly from its preview. Arrow keys browse; Space or Escape returns to the ribbon.</li><li>Preview PDFs and other documents with macOS Quick Look, and choose which file to view when a clip contains several files.</li><li>Detected sensitive items stay concealed in previews.</li></ul>
-<p><strong>A more useful library</strong></p>
-<ul><li>Organize pinboards and saved collections into spaces, and let a Focus filter select a space for you.</li><li>Saved links have an Inbox, Read Next, Done, collections, search, descriptions, and a Front Page. Import tabs and page details from Zen, or save the current tab from Safari, Chrome, or Zen.</li><li>Review stale links, pages that are no longer available, and tabs closed in Zen. Removal always stays under your control.</li><li>Share pinboards as .pastelpack files. Save and reuse Paste Stacks, or paste a pinboard in sequence.</li><li>Search across clipboard history and this space's pinboards, then narrow by item type, app, date, or source.</li></ul>
-<p><strong>Privacy and fixes</strong></p>
-<ul><li>Detected passwords and keys are excluded from MCP access, pinboard exports, and iCloud sync. MCP access is off on new installs until enabled.</li><li>The optional Claude organizer uses your own API key and only the saved-link metadata from the spaces you select; clipboard items are excluded.</li><li>Quick Start includes a practice paste, and can be reopened from the menu bar.</li><li>Improved sheet sizing, keyboard focus, VoiceOver labels, and pasting into Pastel's own windows.</li></ul>
-<p>Requires macOS 26 or later. Apple Intelligence features require a compatible Mac and enabled Apple Intelligence.</p>
-]]></description>
-            <enclosure url="https://github.com/tvidenov/Pastel-releases/releases/download/v0.6.0/Pastel-0.6.0.dmg" length="7923817" type="application/octet-stream" sparkle:edSignature="tKMbOUog7auWLue+OPeEnkkwwhQgEWMUSbxGRmBdhtJj1+/i0m/Z/GHyNj8FXiN73ur+j5G4KhyaFqaLLCTYAg=="/>
         </item>
     </channel>
 </rss>
