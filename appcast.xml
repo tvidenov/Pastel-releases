@@ -3,6 +3,22 @@
     <channel>
         <title>Pastel</title>
         <item>
+            <title>0.9.1</title>
+            <pubDate>Mon, 02 Nov 2026 09:23:58 +0200</pubDate>
+            <link>https://github.com/tvidenov/Pastel-releases/releases</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/tvidenov/Pastel-releases/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>114</sparkle:version>
+            <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p># Pastel 0.9.1</p>
+<p>## Put the ribbon where you want it</p>
+<ul><li>Choose where the ribbon opens in Settings › General › Ribbon, or from the ribbon's ⋯ menu: <strong>Bottom</strong> (as before), <strong>Top</strong>, <strong>Notch</strong>, <strong>Left</strong> or <strong>Right</strong>.</li><li><strong>Notch</strong> hangs a shelf from the camera notch, about four cards wide, that grows out of the notch when it opens. On a display without a notch, it hangs from the top center.</li><li><strong>Top</strong> spans the screen over the menu bar, with the cards starting below the notch.</li><li><strong>Left</strong> and <strong>Right</strong> show a column of cards down the side of the screen, with their own width. ↑ and ↓ move through them.</li><li>Drag the ribbon's inner edge to resize it in any position. The preview opens beside the ribbon, and confirmations move below a ribbon at the top.</li><li><strong>Open by hovering over the notch</strong> (off by default): rest the pointer on the notch, or the top center of a display without one, to open a ribbon at the top. It closes when the pointer leaves, unless you click it.</li></ul>
+<p>## Faster with big copies</p>
+<ul><li>The ribbon opens right away even when you've just copied something huge, like a long base64 string. Before, it could take a third of a second every time.</li><li>Copying very large text no longer makes Pastel stall for a moment.</li><li>The preview keeps its full size on a display to the left of your main one.</li></ul>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/Pastel-releases/releases/download/v0.9.1/Pastel-0.9.1.dmg" length="9760784" type="application/octet-stream" sparkle:edSignature="KG3S6yY6uiZPTfvPycMLtXKmizzGUX9d/iTo3i4yD4y5USXeoNnCxrHJFZqDM8dWrS+bEGeCOeCwVuVxjktpBg=="/>
+        </item>
+        <item>
             <title>0.9.0</title>
             <pubDate>Thu, 29 Oct 2026 15:51:53 +0200</pubDate>
             <link>https://github.com/tvidenov/Pastel-releases/releases</link>
@@ -30,23 +46,6 @@
 <ul><li>Resize the clipboard ribbon by dragging its top edge up or down, or use the new size slider in Settings. Double-click the handle to return to the original size. Your choice is remembered.</li><li>At smaller sizes, choose <strong>Compact tiles</strong> for readable titles and details or <strong>Dock icons</strong> for thumbnails with details on hover. Switch from the ribbon’s More menu or Settings. Full preview cards return as you make the ribbon taller.</li><li>Keyboard selection, Quick Paste, dragging, context menus and Space preview work across ribbon sizes. Sensitive items stay concealed in both compact styles.</li><li>Sparkle now downloads signed updates automatically by default and installs them when you quit Pastel. Settings includes separate controls for automatic checks and downloads. Existing explicit update preferences are preserved.</li></ul>
 ]]></description>
             <enclosure url="https://github.com/tvidenov/Pastel-releases/releases/download/v0.8.0/Pastel-0.8.0.dmg" length="8281171" type="application/octet-stream" sparkle:edSignature="gvmF0fNGVMvno6lHF86r9Fr6gqKqg3nJc6f2eUvanM5wYA1d7vWJIzqTzhKjP3ci4Y5M1gH6z1Fs0XrsXMBfAA=="/>
-        </item>
-        <item>
-            <title>0.7.0</title>
-            <pubDate>Tue, 27 Oct 2026 17:53:15 +0200</pubDate>
-            <link>https://github.com/tvidenov/Pastel-releases/releases</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/tvidenov/Pastel-releases/releases</sparkle:fullReleaseNotesLink>
-            <sparkle:version>104</sparkle:version>
-            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p># Pastel 0.7.0</p>
-<p>## A Front Page for more browsers</p>
-<ul><li>Safari now includes Pastel Front Page as a bundled extension, with your pinned bookmarks, projects and saved links in new tabs and windows.</li><li>Firefox has a temporary extension preview, including a new-tab dashboard and optional home page. Permanent Firefox installation still requires Mozilla signing.</li><li>Browser settings guide you through Safari, Chrome and Firefox setup.</li></ul>
-<p>## Bring your open tabs together</p>
-<ul><li>Choose which browsers to collect normal open tabs from: Safari, Chrome, Firefox and Zen.</li><li>Matching links merge across browsers and profiles. Existing titles, lists, pins and Done status stay in place.</li><li>Browser sources appear on saved links. Closing a tab keeps its saved bookmark.</li><li>Only current tab titles and addresses are collected. Private tabs, browser history, page contents, internal pages and credential-bearing URLs are excluded. Automatically collected links skip background page fetching and organization.</li></ul>
-<p>Safari must be enabled in Safari’s Extensions settings. Existing Chrome installations need the updated extension files reloaded to grant the new tabs permission. Collection starts only after you opt in for each browser in Pastel’s Browser settings.</p>
-]]></description>
-            <enclosure url="https://github.com/tvidenov/Pastel-releases/releases/download/v0.7.0/Pastel-0.7.0.dmg" length="8227183" type="application/octet-stream" sparkle:edSignature="XJrC9y8mPAXH8W1mPh2UAF2pCRSL+O9eAj8D3LPhhsiJZemsqWYM7m6sEFrZJDEE12h/lnUoirMp12rWJEnqAw=="/>
         </item>
     </channel>
 </rss>
