@@ -3,6 +3,19 @@
     <channel>
         <title>Pastel</title>
         <item>
+            <title>0.9.5</title>
+            <pubDate>Wed, 11 Nov 2026 16:03:20 +0200</pubDate>
+            <link>https://github.com/tvidenov/Pastel-releases/releases</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/tvidenov/Pastel-releases/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>157</sparkle:version>
+            <sparkle:shortVersionString>0.9.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Faster start</h3>
+<ul><li>Pastel no longer freezes for several seconds after launch with sync on. The first sync check read every pinboard and saved-links collection again for each item in it; it now reads each one once.</li></ul>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/Pastel-releases/releases/download/v0.9.5/Pastel-0.9.5.dmg" length="9954408" type="application/octet-stream" sparkle:edSignature="gI5xAtdCKrIRk61cJjPqLtujnKmkb8+dN7UBTA3StR1lWuKubnKLSmlFFOdM3pmbErDPD0esDc4ilzwOgU2+Bw=="/>
+        </item>
+        <item>
             <title>0.9.4</title>
             <pubDate>Wed, 11 Nov 2026 15:51:07 +0200</pubDate>
             <link>https://github.com/tvidenov/Pastel-releases/releases</link>
@@ -45,21 +58,6 @@
 <ul><li>Deleting a saved link, or a whole collection, now sticks: the daily update from Zen no longer saves the tab again while it's still in Zen's sidebar.</li><li>Once you close that tab in Zen, opening the page there again later saves it again.</li></ul>
 ]]></description>
             <enclosure url="https://github.com/tvidenov/Pastel-releases/releases/download/v0.9.3/Pastel-0.9.3.dmg" length="9849462" type="application/octet-stream" sparkle:edSignature="2bOsweZNC6hZGQkZj9PYGMGlTu5ou19c/i1k+kIszTLgn1QEavKtxnye6K5RgdzCAGyzT2TwAA6vs8SgsIsLAg=="/>
-        </item>
-        <item>
-            <title>0.9.2</title>
-            <pubDate>Mon, 02 Nov 2026 12:51:09 +0200</pubDate>
-            <link>https://github.com/tvidenov/Pastel-releases/releases</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/tvidenov/Pastel-releases/releases</sparkle:fullReleaseNotesLink>
-            <sparkle:version>119</sparkle:version>
-            <sparkle:shortVersionString>0.9.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Choose the display</h3>
-<ul><li>The ribbon can open on a display of your choice: the one under the pointer (as before), the main display, or a specific display by name, like the built-in one with the notch. Set it in Settings › General › Ribbon › Display.</li><li>If the chosen display isn't connected, the ribbon opens under the pointer, and Settings keeps your choice for when it's back.</li><li>Hovering over the notch only opens the ribbon on the chosen display.</li></ul>
-<h3>A fuller Quick Start</h3>
-<ul><li><strong>Two ways to paste:</strong> pick where the ribbon opens from five small screens and see it with Show Me, turn on opening by hovering over the notch, and set Pocket's shortcut. With more than one display, choose which one the ribbon uses.</li><li><strong>Try your first paste</strong> now has a step for Pocket, which ticks off once you've pasted with it.</li><li><strong>More to explore</strong> has its own page with what Pastel can do beyond the basics: the big preview, Quick Paste, Paste Stack, saved links and the Front Page, your browser's tabs, the Library, Spaces, smart pinboards, pinboard packs, on-device suggestions, Sync and privacy.</li><li>Open Quick Start any time from the menu bar.</li></ul>
-]]></description>
-            <enclosure url="https://github.com/tvidenov/Pastel-releases/releases/download/v0.9.2/Pastel-0.9.2.dmg" length="9802335" type="application/octet-stream" sparkle:edSignature="G/cLF5od0oycGiOqihEKP5+hxVTEPKNfQtrHKs8k4/uTQUIIvz3rpE00JSvOnm5NGwQ+5jCYpWAFuBR3nH4/DA=="/>
         </item>
     </channel>
 </rss>
