@@ -3,6 +3,22 @@
     <channel>
         <title>Pastel</title>
         <item>
+            <title>0.9.6</title>
+            <pubDate>Wed, 11 Nov 2026 23:43:19 +0200</pubDate>
+            <link>https://github.com/tvidenov/Pastel-releases/releases</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/tvidenov/Pastel-releases/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>159</sparkle:version>
+            <sparkle:shortVersionString>0.9.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Two new ways to show your lists</h3>
+<p>Settings › General › Show lists as, or the strip's ⋯ menu. Both work with a full-size ribbon along the top or bottom.</p>
+<ul><li><strong>Stacks</strong> replaces the row of pinboards with the current list's name and the lists you use with the app in front. Press Tab to see every list as a stack of cards with its first items; use the arrows and Return to open one, or type to narrow them. Esc returns to the Clipboard.</li><li><strong>Left rail</strong> lists the Clipboard and every pinboard down the side, each one click away.</li><li><strong>Tab row</strong> is the layout you had, and stays the default.</li></ul>
+<h3>Settings</h3>
+<ul><li>Settings opens in the middle of the display you're on instead of wherever it was last left.</li><li>The dotted line under the ribbon size slider is gone.</li></ul>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/Pastel-releases/releases/download/v0.9.6/Pastel-0.9.6.dmg" length="10095701" type="application/octet-stream" sparkle:edSignature="UTlpdIbuwNPyKwWjAh8BTsjg/bbh9djDEzDFkqFNX5U6N9Nnn4bhs4ePtOFvrVYr7/L8BgjFHB1VSflg7E5JCw=="/>
+        </item>
+        <item>
             <title>0.9.5</title>
             <pubDate>Wed, 11 Nov 2026 16:03:20 +0200</pubDate>
             <link>https://github.com/tvidenov/Pastel-releases/releases</link>
@@ -41,23 +57,6 @@
 <ul><li>A long session no longer starts returning empty results.</li><li>Copying text with accents or emoji keeps them intact.</li><li>Searching with a short query keeps the kind filter.</li></ul>
 ]]></description>
             <enclosure url="https://github.com/tvidenov/Pastel-releases/releases/download/v0.9.4/Pastel-0.9.4.dmg" length="9951325" type="application/octet-stream" sparkle:edSignature="BnpZrAzna7qVK9ZNIVy5ZEXm7wci3JF25yRzpz1CO2q6fT3reZ4dpBT8BgxrmxFxbi2yuY0Cf4I/4FSkRahrBQ=="/>
-        </item>
-        <item>
-            <title>0.9.3</title>
-            <pubDate>Thu, 05 Nov 2026 16:01:04 +0200</pubDate>
-            <link>https://github.com/tvidenov/Pastel-releases/releases</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/tvidenov/Pastel-releases/releases</sparkle:fullReleaseNotesLink>
-            <sparkle:version>126</sparkle:version>
-            <sparkle:shortVersionString>0.9.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Fast again after days of use</h3>
-<ul><li>Pastel no longer slows down the longer it runs. A Library or Front Page you had closed kept working in the background after every copy, and that work grew over days until opening the ribbon could take seconds. Closed windows now rest until you open them again.</li><li>The ribbon opens faster: it no longer reads every item's thumbnail again each time you open it, only the cards you see.</li></ul>
-<h3>Less disk space</h3>
-<ul><li>Settings › General › Keep History shows how much space Pastel takes on this Mac, including pinboards and saved links.</li><li>Copying a file no longer saves a picture of it alongside, which was often around 10 MB each. Pasting a file only ever used its location. Copies of the same image saved under older clipboard names are gone too.</li><li>Pictures saved with earlier file copies go as your history expires.</li></ul>
-<h3>Saved links</h3>
-<ul><li>Deleting a saved link, or a whole collection, now sticks: the daily update from Zen no longer saves the tab again while it's still in Zen's sidebar.</li><li>Once you close that tab in Zen, opening the page there again later saves it again.</li></ul>
-]]></description>
-            <enclosure url="https://github.com/tvidenov/Pastel-releases/releases/download/v0.9.3/Pastel-0.9.3.dmg" length="9849462" type="application/octet-stream" sparkle:edSignature="2bOsweZNC6hZGQkZj9PYGMGlTu5ou19c/i1k+kIszTLgn1QEavKtxnye6K5RgdzCAGyzT2TwAA6vs8SgsIsLAg=="/>
         </item>
     </channel>
 </rss>
